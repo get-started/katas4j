@@ -11,7 +11,7 @@ import static org.junit.Assert.assertThat;
  */
 public class FuzzBuzzTest {
     @Test
-    public void normal() throws Exception {
+    public void showsOriginalNumberIfNumberCannotDivisibleBy3Or5() throws Exception {
         assertThat(FuzzBuzz.of(1), equalTo("1"));
         assertThat(FuzzBuzz.of(2), equalTo("2"));
     }
