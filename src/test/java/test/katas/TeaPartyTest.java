@@ -2,7 +2,6 @@ package test.katas;
 
 import katas.GuestType;
 import katas.TeaParty;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
