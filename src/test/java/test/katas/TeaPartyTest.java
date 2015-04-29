@@ -1,5 +1,6 @@
 package test.katas;
 
+import katas.TeaParty;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
