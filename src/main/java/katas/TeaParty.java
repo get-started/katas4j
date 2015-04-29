@@ -5,6 +5,6 @@ package katas;
  */
 public class TeaParty {
     public static String welcome(String whom) {
-        return null;
+        return "Hello Mr. " + whom;
     }
 }
