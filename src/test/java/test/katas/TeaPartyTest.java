@@ -14,4 +14,9 @@ public class TeaPartyTest {
     public void sayMrXXXToAMan() throws Exception {
         assertThat(TeaParty.welcome("Orwell"),equalTo("Hello Mr. Orwell"));
     }
+
+    @Test
+    public void sayMsXXXToAWoman() throws Exception {
+        assertThat(TeaParty.welcome("Austen"),equalTo("Hello Ms. Austen"));
+    }
 }
