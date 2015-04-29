@@ -13,11 +13,16 @@ import static org.junit.Assert.assertThat;
 public class TeaPartyTest {
     @Test
     public void sayMrXXXToAMan() throws Exception {
-        assertThat(TeaParty.welcome("Orwell",true),equalTo("Hello Mr. Orwell"));
+        assertThat(TeaParty.welcome("Orwell", true), equalTo("Hello Mr. Orwell"));
     }
 
     @Test
     public void sayMsXXXToAWoman() throws Exception {
-        assertThat(TeaParty.welcome("Austen",false),equalTo("Hello Ms. Austen"));
+        assertThat(TeaParty.welcome("Austen", false), equalTo("Hello Ms. Austen"));
+    }
+
+    @Test
+    public void saySirXXXToAKnighted() throws Exception {
+        assertThat(TeaParty.welcome("Newton", false), equalTo("Hello Sir Newton"));
     }
 }
