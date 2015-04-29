@@ -13,5 +13,6 @@ public class FuzzBuzzTest {
     @Test
     public void normal() throws Exception {
         assertThat(FuzzBuzz.of(1),equalTo("1"));
+        assertThat(FuzzBuzz.of(2),equalTo("2"));
     }
 }
