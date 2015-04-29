@@ -5,9 +5,13 @@ package katas;
  */
 public class FuzzBuzz {
     public static String of(int number) {
-        if (number % 3 == 0) {
+        if (isFuzz(number)) {
             return "Fuzz";
         }
         return String.valueOf(number);
+    }
+
+    private static boolean isFuzz(int number) {
+        return number % 3 == 0;
     }
 }
