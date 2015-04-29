@@ -17,7 +17,6 @@ public class TeaPartyTest {
     }
 
     @Test
-    @Ignore
     public void sayMsXXXToAWoman() throws Exception {
         assertThat(TeaParty.welcome("Austen",false),equalTo("Hello Ms. Austen"));
     }
