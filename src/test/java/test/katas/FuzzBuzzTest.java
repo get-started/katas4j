@@ -27,4 +27,10 @@ public class FuzzBuzzTest {
         assertThat(FuzzBuzz.of(5), equalTo("Buzz"));
         assertThat(FuzzBuzz.of(10), equalTo("Buzz"));
     }
+
+    @Test
+    public void showsFuzzBuzzIfNumberDivisibleBy15() throws Exception {
+        assertThat(FuzzBuzz.of(15), equalTo("FuzzBuzz"));
+    }
+
 }
