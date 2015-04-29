@@ -5,6 +5,9 @@ package katas;
  */
 public class FuzzBuzz {
     public static String of(int number) {
+        if (isFuzz(number) && isBuzz(number)) {
+            return "FuzzBuzz";
+        }
         if (isBuzz(number)) {
             return "Buzz";
         }
