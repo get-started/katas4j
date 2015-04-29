@@ -5,6 +5,6 @@ package katas;
  */
 public class FuzzBuzz {
     public static String of(int number) {
-        return null;
+        return "1";
     }
 }
