@@ -1,5 +1,6 @@
 package test.katas;
 
+import katas.FuzzBuzz;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
