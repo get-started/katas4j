@@ -5,6 +5,9 @@ package katas;
  */
 public class FuzzBuzz {
     public static String of(int number) {
+        if (number == 3) {
+            return "Fuzz";
+        }
         return String.valueOf(number);
     }
 }
