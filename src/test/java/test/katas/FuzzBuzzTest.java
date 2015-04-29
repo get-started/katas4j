@@ -17,13 +17,13 @@ public class FuzzBuzzTest {
     }
 
     @Test
-    public void showsFuzzWhenNumberDivisibleBy3() throws Exception {
+    public void showsFuzzIfNumberDivisibleBy3() throws Exception {
         assertThat(FuzzBuzz.of(3), equalTo("Fuzz"));
         assertThat(FuzzBuzz.of(6), equalTo("Fuzz"));
     }
 
     @Test
-    public void showsBuzzWhenNumberDivisibleBy5() throws Exception {
+    public void showsBuzzIfNumberDivisibleBy5() throws Exception {
         assertThat(FuzzBuzz.of(5), equalTo("Buzz"));
         assertThat(FuzzBuzz.of(10), equalTo("Buzz"));
     }
