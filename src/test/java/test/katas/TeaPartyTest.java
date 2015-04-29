@@ -23,7 +23,6 @@ public class TeaPartyTest {
     }
 
     @Test
-    @Ignore
     public void saySirXXXToAKnighted() throws Exception {
         assertThat(TeaParty.welcome("Newton", GuestType.KNIGHTED), equalTo("Hello Sir Newton"));
     }
